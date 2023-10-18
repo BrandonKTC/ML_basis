@@ -1,14 +1,17 @@
-Cross Validation:
+## Cross Validation:
 give the ability to train on all the data and evaluate on all the data
+- This is known as K-fold cross validation.
+- Common choice for K is 10 so each test set is 10% of your total data.
+- Largest K possible would be K equal to the number of rows
 
-fit():
+### fit():
 - call simply calculates the necessary statistics
 only call on the training data
 
-transform():
+### transform():
 - call actually scales data and returns the new scaled version of data.
 
-Feature Scaling:
+## Feature Scaling:
 only scale the features not the label it can alter the definition of the target.
 - improves the convergence of steepest descent algorithms, wich do not possess the property of scale invariance.
 - if features are on different scales, certain weights may update faster than others since the feature values x(j) play a role in the weight updates.
@@ -21,7 +24,7 @@ Normalization:
 Rescales all data values to be between 0-1.
 
 
-Regularization:
+## Regularization:
 is a way to reduce model overfitting and variance
 - requires additional bias.
 - requires a search for optimal penalty hyperparameter.
@@ -40,23 +43,23 @@ adds a penalty equal to the ^2 of the magnitude os coefficients:
 combine L1 and L2 with the addition of an alpha parameter deciding the ratio between them
 - Elastic Net
 
-Residuals:
+## Residuals:
 - residual errors should be random and close to a normal distribution (on a kde plot (close to 0))
 Residual plot shows residual arror vs. true y value:
 - there should be no clear line or curve. (on the points)
 
-MAE:
+## MAE:
 simply (y - y hat) and since prediction can be above or below the true value we take the mean absolute value of the sum
 - don't count large errors
 
-MSE:
+## MSE:
 also (y - y hat)^2 since the value are squared Larger errors are "punished" more than with MAE
 - reports units of y in squared!
 
-RMSE:
+## RMSE:
 do exactly the same thing as MSE and squared root the value of y so the units are "logic again" 
 
-y = mx + b
+# y = mx + b
 
 Gradient Descent:
 find the best Beta value to minimize the squared error.(b)
