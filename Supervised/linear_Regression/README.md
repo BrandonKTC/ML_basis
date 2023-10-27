@@ -35,7 +35,7 @@ adds a penalty equal to the absolute value of the magnitude of coefficients:
 ° yield sparse models where some coef_ can become zero
 - LASSO Regression
 * L2 Regularization:
-adds a penalty equal to the ^2 of the magnitude os coefficients:
+adds a penalty equal to the ^2 of the magnitude of coefficients:
 ° All coefficients are shrunk by the same factor.
 ° Doesn't necessarily eliminate coefficients
 - Ridge Regression
