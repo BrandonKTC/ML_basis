@@ -39,4 +39,4 @@ Formule : ( 2 * precision * recall ) / ( precision + recall )
 
 ### MODELS:
 - Logistic Regression
-
+- KNN - K Nearest Neighbors
