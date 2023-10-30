@@ -4,6 +4,13 @@ classification algorithms also often produce a probability prediction of belongi
 - Class 1: 85% Probability
 - Class 2: 5% Probability
 
+## MODELS:
+- Logistic Regression
+- KNN - K Nearest Neighbors
+
+
+# Evaluation methods:
+
 ## ROC Curves:
 Chart the True vs. False positives for various cut-offs for the ROC Curve.
 By changing the cut-off limit, we can adjust True vs False Positives!
@@ -37,6 +44,4 @@ Is the harmonic mean of precision and recall.
 Formule : ( 2 * precision * recall ) / ( precision + recall )
 
 
-### MODELS:
-- Logistic Regression
-- KNN - K Nearest Neighbors
+

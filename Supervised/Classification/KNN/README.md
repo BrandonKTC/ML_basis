@@ -6,7 +6,7 @@ it simply assigns a label to new data based on the distance between the old data
 
 ## KNN Considerations:
 - Scaling is necessary for KNN.
--- Features could have vastly different value ranges
+* Features could have vastly different value ranges
 
 ==How to choose the optimal K value==
 
