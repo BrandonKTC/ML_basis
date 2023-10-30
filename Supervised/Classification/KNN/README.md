@@ -16,7 +16,7 @@ it simply assigns a label to new data based on the distance between the old data
 * Elbow method:
 train a model with multiple K values on the same set of training points, then test them on the same test set and mark down the error rate for each K value
 
-* Cross validate a grid searchof multiple K values and choose K that results in lowest error or highest accuracy 
+* Cross validate a grid search of multiple K values and choose K that results in lowest error or highest accuracy 
 
 
 ## KNN for classification:
