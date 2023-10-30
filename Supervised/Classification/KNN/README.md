@@ -8,7 +8,7 @@ it simply assigns a label to new data based on the distance between the old data
 - Scaling is necessary for KNN.
 * Features could have vastly different value ranges
 
-==How to choose the optimal K value==
+### How to choose the optimal K value
 
 * we want a K value that minimizes error
 
