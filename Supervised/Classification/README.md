@@ -7,6 +7,8 @@ classification algorithms also often produce a probability prediction of belongi
 ## MODELS:
 - Logistic Regression
 - KNN - K Nearest Neighbors
+- SVC Classifier
+- Naive Bayes & NLP
 
 
 # Evaluation methods:
