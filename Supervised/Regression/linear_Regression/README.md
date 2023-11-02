@@ -48,17 +48,6 @@ combine L1 and L2 with the addition of an alpha parameter deciding the ratio bet
 Residual plot shows residual arror vs. true y value:
 - there should be no clear line or curve. (on the points)
 
-## MAE:
-simply (y - y hat) and since prediction can be above or below the true value we take the mean absolute value of the sum
-- don't count large errors
-
-## MSE:
-also (y - y hat)^2 since the value are squared Larger errors are "punished" more than with MAE
-- reports units of y in squared!
-
-## RMSE:
-do exactly the same thing as MSE and squared root the value of y so the units are "logic again" 
-
 # y = mx + b
 
 Gradient Descent:
