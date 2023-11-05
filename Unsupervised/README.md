@@ -12,4 +12,3 @@ Using features, group together data rows into distinct clusters.
 if we have unlabeled data, can we attempt to reduce the number of features by combining them into new components ? Do these new components give us further insight for the data ?
 Using features, discover how to combine and reduce into fewer components.
  
-
